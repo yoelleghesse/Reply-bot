@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 reddit = praw.Reddit(user_agent=True, client_id="YOUR REDDIT APP ID", 
   client_secret="YOUR REDDIT APP SECRET", username='YOUR REDDIT USERNAME', password='YOUR REDDIT ACCOUNT PASSWORD')
 
-subreddit = reddit.subreddit("glassblowing")
+subreddit = reddit.subreddit("christmas")
 
 
 for post in subreddit.new():
